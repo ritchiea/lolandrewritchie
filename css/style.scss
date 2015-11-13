@@ -1,0 +1,46 @@
+$fancyFont: "Chapeau Regular", Arial, sans-serif;
+
+$topNavPink: #f49e9b;
+
+$btmNavGreen: #a4d0d2;
+
+$white: #ffffff;
+
+/* UPCOMING SHOWS */
+
+$upcomingBg: #7b95bd;
+
+/* ABOUT */
+
+$aboutBg: #eac477;
+
+/* VIDEO */
+
+$videoBg: #88eadb;
+
+/* BLOG */
+
+$blogBg: #d9c1a8;
+
+/* CONTACT */
+
+$contactBg: #7b7b7b;
+
+body {
+  font-family: $fancyFont;
+  font-weight:normal;
+  font-style:normal;
+  color: $white;
+}
+
+.pattern-bg {
+  background-image: url(/img/home-bgseamless.png);
+}
+
+.navbar-fixed-top {
+  background-color: $topNavPink;
+}
+
+.navbar-fixed-bottom {
+  background-color: $btmNavGreen;
+}

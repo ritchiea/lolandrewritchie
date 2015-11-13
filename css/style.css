@@ -1,0 +1,21 @@
+/* UPCOMING SHOWS */
+/* ABOUT */
+/* VIDEO */
+/* BLOG */
+/* CONTACT */
+body {
+  font-family: "Chapeau Regular", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff; }
+
+.pattern-bg {
+  background-image: url(/img/home-bgseamless.png); }
+
+.navbar-fixed-top {
+  background-color: #f49e9b; }
+
+.navbar-fixed-bottom {
+  background-color: #a4d0d2; }
+
+/*# sourceMappingURL=style.css.map */
