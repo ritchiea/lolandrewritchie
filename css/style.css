@@ -4,7 +4,7 @@
 /* BLOG */
 /* CONTACT */
 body {
-  font-family: "Chapeau Regular", Arial, sans-serif;
+  font-family: "Chapeau Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #ffffff; }
@@ -18,8 +18,8 @@ body {
 
 .portrait {
   display: block;
-  width: 50%;
-  padding-top: 7%; }
+  width: 54%;
+  padding-top: 5%; }
 
 .navbar-fixed-top {
   background-color: #f49e9b;
@@ -36,12 +36,19 @@ body {
 h1 {
   font-size: 2em;
   margin: 0.3em 0;
-  font-weight: 100; }
+  font-weight: 200; }
 
 .centered {
   margin: 0 auto; }
 
 .center-text {
   text-align: center; }
+
+.navbar.center .navbar-inner {
+  text-align: center; }
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none; }
 
 /*# sourceMappingURL=style.css.map */
