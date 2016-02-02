@@ -10,12 +10,38 @@ body {
   color: #ffffff; }
 
 .pattern-bg {
+  height: 100%;
   background-image: url(/img/home-bgseamless.png); }
 
+.portrait-bg {
+  background-image: url(/img/home-portrait.svg); }
+
+.portrait {
+  display: block;
+  width: 50%;
+  padding-top: 7%; }
+
 .navbar-fixed-top {
-  background-color: #f49e9b; }
+  background-color: #f49e9b;
+  border-style: none;
+  border-width: 0;
+  background-image: none; }
 
 .navbar-fixed-bottom {
-  background-color: #a4d0d2; }
+  background-color: #a4d0d2;
+  border-style: none;
+  border-width: 0;
+  background-image: none; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.3em 0;
+  font-weight: 100; }
+
+.centered {
+  margin: 0 auto; }
+
+.center-text {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
