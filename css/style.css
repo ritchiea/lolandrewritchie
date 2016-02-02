@@ -11,7 +11,8 @@ body {
 
 .pattern-bg {
   height: 100%;
-  background-image: url(/img/home-bgseamless.png); }
+  background-image: url(/img/home-bgseamless.png);
+  background-size: 44%; }
 
 .portrait-bg {
   background-image: url(/img/home-portrait.svg); }
