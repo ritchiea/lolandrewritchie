@@ -26,17 +26,26 @@ $blogBg: #d9c1a8;
 
 $contactBg: #7b7b7b;
 
-body {
+body, .navbar-nav li a {
   font-family: $fancyFont;
-  font-weight:normal;
-  font-style:normal;
-  color: $white;
+  font-weight: normal;
+  font-style: normal;
+  color: $white !important;
+}
+
+.navbar-nav li a {
+  font-size: 1.5em;
 }
 
 .pattern-bg {
   height: 100%;
   background-image: url(/img/home-bgseamless.png);
   background-size: 44%;
+}
+
+.bio {
+  height: 100%;
+  background-color: $aboutBg;
 }
 
 .portrait-bg {
@@ -67,6 +76,10 @@ h1 {
   font-size: 2em;
   margin: 0.3em 0;
   font-weight: 200;
+}
+
+.quotes {
+  padding-top: 5%;
 }
 
 .centered {

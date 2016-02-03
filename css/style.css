@@ -3,16 +3,23 @@
 /* VIDEO */
 /* BLOG */
 /* CONTACT */
-body {
+body, .navbar-nav li a {
   font-family: "Chapeau Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #ffffff; }
+  color: #ffffff !important; }
+
+.navbar-nav li a {
+  font-size: 1.5em; }
 
 .pattern-bg {
   height: 100%;
   background-image: url(/img/home-bgseamless.png);
   background-size: 44%; }
+
+.bio {
+  height: 100%;
+  background-color: #eac477; }
 
 .portrait-bg {
   background-image: url(/img/home-portrait.svg); }
@@ -38,6 +45,9 @@ h1 {
   font-size: 2em;
   margin: 0.3em 0;
   font-weight: 200; }
+
+.quotes {
+  padding-top: 5%; }
 
 .centered {
   margin: 0 auto; }
